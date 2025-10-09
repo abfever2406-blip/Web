@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#36e29d",
+              "background-light": "#f6f8f7",
+              "background-dark": "#11211b",
+            },
+            fontFamily: {
+              "display": ["Space Grotesk"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<title>Arcade Cafe</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-gray-200/50 dark:border-gray-800/50 px-10 py-3">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold tracking-tight text-gray-900 dark:text-white">Arcade Cafe</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary" href="#">Menu</a>
+<a class="text-sm font-medium hover:text-primary" href="#">Events</a>
+<a class="text-sm font-medium hover:text-primary" href="#">About</a>
+<a class="text-sm font-medium hover:text-primary" href="#">Contact</a>
+</nav>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded bg-primary h-10 px-4 text-sm font-bold text-background-dark hover:bg-primary/80 transition-colors">
+<span class="truncate">Order Now</span>
+</button>
+</header>
+<main class="flex-1">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+<div class="@container">
+<div class="@[480px]:p-4">
+<div class="flex min-h-[480px] flex-col items-center justify-center gap-6 rounded-xl bg-cover bg-center bg-no-repeat p-4 text-center" style='background-image: linear-gradient(rgba(17, 33, 27, 0.5) 0%, rgba(17, 33, 27, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBZo2lQf6iqtDqeYtbffTTL-MwkkaejQXykqIgsQ-6qyXTeKc8_64JzfGmcg4578ApUmxg3I6z8eKlSDi1OU3oEnFfPUSpSV_tSNQNRR0zHZhVmRg4cL7Y7YbtI6ddrclUBYQkyabTNiY5A3Pguh9SWR7fdTP5XFOJ4c0IZWU6s_NEFiKj9wI_G6163pCZOnQOuaj_14nFVysbw35pu9TIvM24xEqsItFmcvRLtoTIOf3r7a3ZRXD30P8QzWtWlzPRFUX_UFeR40SY");'>
+<div class="flex flex-col gap-2">
+<h1 class="text-4xl font-black tracking-tighter text-white sm:text-5xl md:text-6xl">
+                    Arcade Cafe
+                  </h1>
+<p class="text-base text-gray-300 sm:text-lg">
+                    Your ultimate destination for gaming, food, and fun!
+                  </p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded bg-primary h-12 px-5 text-base font-bold text-background-dark hover:bg-primary/80 transition-colors">
+<span class="truncate">Explore Menu</span>
+</button>
+</div>
+</div>
+</div>
+<div class="py-16 sm:py-24 text-center">
+<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">About Us</h2>
+<p class="mt-4 max-w-2xl mx-auto text-lg leading-8 text-gray-600 dark:text-gray-400">
+              Arcade Cafe is a unique space where you can enjoy a variety of arcade games while savoring delicious food and drinks. Our goal is to create a fun and engaging environment for gamers and food enthusiasts alike.
+            </p>
+</div>
+<div class="pb-16 sm:pb-24">
+<h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 dark:text-white sm:text-4xl">Our Offerings</h2>
+<div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+<div class="group relative flex flex-col gap-3">
+<div class="aspect-square w-full overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-800">
+<img alt="Arcade Games" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASSHKBZjKDq17_4eUm1mdBefSA3lMTunQNcwLShwC96G8ZV2fqkskVYmEoM6qryqsonYZA4FbFkj4RGssLhATDZZNXQCJNEuOVZxvl5KemRnOGn3DrESPrC3PcttJ4em2d5ysQ04ZFfaIJXL1PYRFSi_9UV7MRYplTNv_C3lpGuXjPJzmMI__ts1qxarJgyCv3kKnGE_-ER4s8wGa1rfUs1AnhinJ0KkxcaZ0B8XaUUzhwuQEPbke0S4BtgHkzm0bbMQzm9aZZeiY"/>
+</div>
+<div>
+<h3 class="text-base font-semibold text-gray-900 dark:text-white">Arcade Games</h3>
+<p class="mt-1 text-sm text-gray-600 dark:text-gray-400">A wide selection of classic and modern arcade games.</p>
+</div>
+</div>
+<div class="group relative flex flex-col gap-3">
+<div class="aspect-square w-full overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-800">
+<img alt="Food &amp; Drinks" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAF1vJvb1n7SdLSKJjqvcdtjkel6FOE-7MuRbd05HvC1fUH4bGByvUsael6eevY4B1YKTPzFb2-Suefv6RNDo5U3Vp4ziHqy_q-SaIVfpw314A5sl49kUu5w1bu2oZWR-CTN2Z6ayw1Pa1ku4P_s1WpcM1WENfsa7mnspX2L2bnPHQuw4mYC5XB8LQoYHVRrw-Mq8ZZvFSaM2ROOuQ6fyFyqbsW2YcIpwzr8OaA9sLg4C243ZKwU1UebRClSxce4gBMPJ8W9D9WcZk"/>
+</div>
+<div>
+<h3 class="text-base font-semibold text-gray-900 dark:text-white">Food &amp; Drinks</h3>
+<p class="mt-1 text-sm text-gray-600 dark:text-gray-400">A diverse menu of tasty food and refreshing beverages.</p>
+</div>
+</div>
+<div class="group relative flex flex-col gap-3">
+<div class="aspect-square w-full overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-800">
+<img alt="Events" class="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7awWpnzyD1iCljmugp6l4ORkH3YE8j7qopeNXoUcjJEt_Z421GHrxqVLDsiPI3ZsNGoV7u_rFYEy3D0i_M6iGHvBaaYSKbuo_oF6WMxhFIKyqUkKIKaS_uVZJx3cp6p_UXxvHoWLwRRbkwAO884zDSylIUWzXuEj6nXyhL74bfyTqhkqvB6P3_qpN9fUGYPtlQL94QYlPUmgpXnyslTr049npZp7ZXzERGUiVdnk4xkgVPxfOdZHcwht2h3oZ2agVtXCTIPcJnRg"/>
+</div>
+<div>
+<h3 class="text-base font-semibold text-gray-900 dark:text-white">Events</h3>
+<p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Regular gaming tournaments and special events.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="@container">
+<div class="flex flex-col items-center justify-center gap-6 py-10 text-center @[480px]:gap-8 @[480px]:px-10 @[480px]:py-20">
+<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+                Ready to Play?
+              </h2>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded bg-primary h-12 px-5 text-base font-bold text-background-dark hover:bg-primary/80 transition-colors">
+<span class="truncate">Order Now</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>
